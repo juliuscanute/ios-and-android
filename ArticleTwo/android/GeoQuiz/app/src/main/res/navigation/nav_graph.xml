@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+    <activity
+        android:id="@+id/quizActivity"
+        android:name="com.bignerdranch.android.geoquiz.QuizActivity"
+        tools:layout="@layout/activity_quiz">
+        <action
+            android:id="@+id/action_quizActivity_to_cheatActivity"
+            app:destination="@+id/cheatActivity" />
+    </activity>
+    <activity
+        android:id="@+id/cheatActivity"
+        android:name="com.bignerdranch.android.geoquiz.CheatActivity"
+        tools:layout="@layout/activity_cheat" />
+</navigation>

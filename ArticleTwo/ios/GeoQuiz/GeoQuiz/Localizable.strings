@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  GeoQuiz
+
+  Created by Julius Canute on 18/6/19.
+  Copyright © 2019 Julius Canute. All rights reserved.
+*/
+"question_australia" = "Canberra is the capital of Australia.";
+"question_oceans" = "The Pacific Ocean is larger than the Atlantic Ocean.";
+"question_mideast" = "The Suez Canal connects the Red Sea and the Indian Ocean.";
+"question_africa" = "The source of the Nile River is in Egypt.";
+"question_americas" = "The Amazon River is the longest river in the Americas.";
+"question_asia" = "Lake Baikal is the world\'s oldest and deepest freshwater lake.";
+"correct" = "Correct!";
+"incorrect" = "Incorrect!";
+"quiz_score" = "Quiz completed, score: %1$d%%";
+"judgment_toast" = "Cheating is wrong.";

@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C662A1706EE0F622D929372 /* Pods_GeoQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF09BBDA9608FD9DBBDDB16A /* Pods_GeoQuizTests.framework */; };
+		8715B03122B9D6EB00A27BF6 /* CheatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8715B03022B9D6EB00A27BF6 /* CheatViewController.swift */; };
+		87436C7022B8C9AB00DB1FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87436C6F22B8C9AB00DB1FC9 /* AppDelegate.swift */; };
+		87436C7222B8C9AB00DB1FC9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87436C7122B8C9AB00DB1FC9 /* QuizViewController.swift */; };
+		87436C7522B8C9AB00DB1FC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87436C7322B8C9AB00DB1FC9 /* Main.storyboard */; };
+		87436C7722B8C9AC00DB1FC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87436C7622B8C9AC00DB1FC9 /* Assets.xcassets */; };
+		87436C7A22B8C9AC00DB1FC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87436C7822B8C9AC00DB1FC9 /* LaunchScreen.storyboard */; };
+		87436C8522B8C9AC00DB1FC9 /* GeoQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87436C8422B8C9AC00DB1FC9 /* GeoQuizTests.swift */; };
+		87436C9022B8C9AC00DB1FC9 /* GeoQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87436C8F22B8C9AC00DB1FC9 /* GeoQuizUITests.swift */; };
+		87436C9E22B8E90200DB1FC9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87436C9D22B8E90200DB1FC9 /* Question.swift */; };
+		87436CA222B8E9FE00DB1FC9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87436CA122B8E9FE00DB1FC9 /* Localizable.strings */; };
+		B211E9EF60ADD0741F9E621C /* Pods_GeoQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B9FE4C27F519B82C05C943 /* Pods_GeoQuiz.framework */; };
+		D06F1289FCBA4396C8C46B8A /* Pods_GeoQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EA7BBE5C84F781F0A8526C /* Pods_GeoQuizUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87436C8122B8C9AC00DB1FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87436C6422B8C9AB00DB1FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87436C6B22B8C9AB00DB1FC9;
+			remoteInfo = GeoQuiz;
+		};
+		87436C8C22B8C9AC00DB1FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87436C6422B8C9AB00DB1FC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87436C6B22B8C9AB00DB1FC9;
+			remoteInfo = GeoQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EA7BBE5C84F781F0A8526C /* Pods_GeoQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B9FE4C27F519B82C05C943 /* Pods_GeoQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B4D7CA9EDFBB2B08F45E62 /* Pods-GeoQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		2993FB8C2F5F7E24071D02A5 /* Pods-GeoQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		683B9D56520D7338E52228C6 /* Pods-GeoQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuizTests/Pods-GeoQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		8715B03022B9D6EB00A27BF6 /* CheatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheatViewController.swift; sourceTree = "<group>"; };
+		87436C6C22B8C9AB00DB1FC9 /* GeoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87436C6F22B8C9AB00DB1FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87436C7122B8C9AB00DB1FC9 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		87436C7422B8C9AB00DB1FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87436C7622B8C9AC00DB1FC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87436C7922B8C9AC00DB1FC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87436C7B22B8C9AC00DB1FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87436C8022B8C9AC00DB1FC9 /* GeoQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87436C8422B8C9AC00DB1FC9 /* GeoQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuizTests.swift; sourceTree = "<group>"; };
+		87436C8622B8C9AC00DB1FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87436C8B22B8C9AC00DB1FC9 /* GeoQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87436C8F22B8C9AC00DB1FC9 /* GeoQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuizUITests.swift; sourceTree = "<group>"; };
+		87436C9122B8C9AC00DB1FC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87436C9D22B8E90200DB1FC9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		87436CA022B8E9CA00DB1FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		87436CA122B8E9FE00DB1FC9 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8CA6345A7DC9A2540F1CA327 /* Pods-GeoQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuizUITests/Pods-GeoQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE5BEC9CDD25C301DB2A743D /* Pods-GeoQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuizUITests/Pods-GeoQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF09BBDA9608FD9DBBDDB16A /* Pods_GeoQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6A27F039C678840BD9676E /* Pods-GeoQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GeoQuizTests/Pods-GeoQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87436C6922B8C9AB00DB1FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B211E9EF60ADD0741F9E621C /* Pods_GeoQuiz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C7D22B8C9AC00DB1FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C662A1706EE0F622D929372 /* Pods_GeoQuizTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C8822B8C9AC00DB1FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06F1289FCBA4396C8C46B8A /* Pods_GeoQuizUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7A21532BB5EC85BB1E8877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B4D7CA9EDFBB2B08F45E62 /* Pods-GeoQuiz.debug.xcconfig */,
+				2993FB8C2F5F7E24071D02A5 /* Pods-GeoQuiz.release.xcconfig */,
+				DA6A27F039C678840BD9676E /* Pods-GeoQuizTests.debug.xcconfig */,
+				683B9D56520D7338E52228C6 /* Pods-GeoQuizTests.release.xcconfig */,
+				BE5BEC9CDD25C301DB2A743D /* Pods-GeoQuizUITests.debug.xcconfig */,
+				8CA6345A7DC9A2540F1CA327 /* Pods-GeoQuizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5D42ED0F91D3CD874239B679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16B9FE4C27F519B82C05C943 /* Pods_GeoQuiz.framework */,
+				BF09BBDA9608FD9DBBDDB16A /* Pods_GeoQuizTests.framework */,
+				00EA7BBE5C84F781F0A8526C /* Pods_GeoQuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87436C6322B8C9AB00DB1FC9 = {
+			isa = PBXGroup;
+			children = (
+				87436C6E22B8C9AB00DB1FC9 /* GeoQuiz */,
+				87436C8322B8C9AC00DB1FC9 /* GeoQuizTests */,
+				87436C8E22B8C9AC00DB1FC9 /* GeoQuizUITests */,
+				87436C6D22B8C9AB00DB1FC9 /* Products */,
+				4D7A21532BB5EC85BB1E8877 /* Pods */,
+				5D42ED0F91D3CD874239B679 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87436C6D22B8C9AB00DB1FC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87436C6C22B8C9AB00DB1FC9 /* GeoQuiz.app */,
+				87436C8022B8C9AC00DB1FC9 /* GeoQuizTests.xctest */,
+				87436C8B22B8C9AC00DB1FC9 /* GeoQuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87436C6E22B8C9AB00DB1FC9 /* GeoQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				87436C6F22B8C9AB00DB1FC9 /* AppDelegate.swift */,
+				87436C7122B8C9AB00DB1FC9 /* QuizViewController.swift */,
+				87436C7322B8C9AB00DB1FC9 /* Main.storyboard */,
+				87436CA122B8E9FE00DB1FC9 /* Localizable.strings */,
+				87436C7622B8C9AC00DB1FC9 /* Assets.xcassets */,
+				87436C7822B8C9AC00DB1FC9 /* LaunchScreen.storyboard */,
+				87436C7B22B8C9AC00DB1FC9 /* Info.plist */,
+				87436C9D22B8E90200DB1FC9 /* Question.swift */,
+				8715B03022B9D6EB00A27BF6 /* CheatViewController.swift */,
+			);
+			path = GeoQuiz;
+			sourceTree = "<group>";
+		};
+		87436C8322B8C9AC00DB1FC9 /* GeoQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				87436C8422B8C9AC00DB1FC9 /* GeoQuizTests.swift */,
+				87436C8622B8C9AC00DB1FC9 /* Info.plist */,
+			);
+			path = GeoQuizTests;
+			sourceTree = "<group>";
+		};
+		87436C8E22B8C9AC00DB1FC9 /* GeoQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87436C8F22B8C9AC00DB1FC9 /* GeoQuizUITests.swift */,
+				87436C9122B8C9AC00DB1FC9 /* Info.plist */,
+			);
+			path = GeoQuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87436C6B22B8C9AB00DB1FC9 /* GeoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87436C9422B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuiz" */;
+			buildPhases = (
+				B3440D7FFFA1BBA9192C7EF4 /* [CP] Check Pods Manifest.lock */,
+				87436C6822B8C9AB00DB1FC9 /* Sources */,
+				87436C6922B8C9AB00DB1FC9 /* Frameworks */,
+				87436C6A22B8C9AB00DB1FC9 /* Resources */,
+				4DE309027E5AD27D49C0A7C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuiz;
+			productName = GeoQuiz;
+			productReference = 87436C6C22B8C9AB00DB1FC9 /* GeoQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87436C7F22B8C9AC00DB1FC9 /* GeoQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87436C9722B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuizTests" */;
+			buildPhases = (
+				908F35502DD14C213C566592 /* [CP] Check Pods Manifest.lock */,
+				87436C7C22B8C9AC00DB1FC9 /* Sources */,
+				87436C7D22B8C9AC00DB1FC9 /* Frameworks */,
+				87436C7E22B8C9AC00DB1FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87436C8222B8C9AC00DB1FC9 /* PBXTargetDependency */,
+			);
+			name = GeoQuizTests;
+			productName = GeoQuizTests;
+			productReference = 87436C8022B8C9AC00DB1FC9 /* GeoQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87436C8A22B8C9AC00DB1FC9 /* GeoQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87436C9A22B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuizUITests" */;
+			buildPhases = (
+				D2C72ADCBB7128FC37CCF65E /* [CP] Check Pods Manifest.lock */,
+				87436C8722B8C9AC00DB1FC9 /* Sources */,
+				87436C8822B8C9AC00DB1FC9 /* Frameworks */,
+				87436C8922B8C9AC00DB1FC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87436C8D22B8C9AC00DB1FC9 /* PBXTargetDependency */,
+			);
+			name = GeoQuizUITests;
+			productName = GeoQuizUITests;
+			productReference = 87436C8B22B8C9AC00DB1FC9 /* GeoQuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87436C6422B8C9AB00DB1FC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Julius Canute";
+				TargetAttributes = {
+					87436C6B22B8C9AB00DB1FC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					87436C7F22B8C9AC00DB1FC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 87436C6B22B8C9AB00DB1FC9;
+					};
+					87436C8A22B8C9AC00DB1FC9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 87436C6B22B8C9AB00DB1FC9;
+					};
+				};
+			};
+			buildConfigurationList = 87436C6722B8C9AB00DB1FC9 /* Build configuration list for PBXProject "GeoQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87436C6322B8C9AB00DB1FC9;
+			productRefGroup = 87436C6D22B8C9AB00DB1FC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87436C6B22B8C9AB00DB1FC9 /* GeoQuiz */,
+				87436C7F22B8C9AC00DB1FC9 /* GeoQuizTests */,
+				87436C8A22B8C9AC00DB1FC9 /* GeoQuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87436C6A22B8C9AB00DB1FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87436C7A22B8C9AC00DB1FC9 /* LaunchScreen.storyboard in Resources */,
+				87436CA222B8E9FE00DB1FC9 /* Localizable.strings in Resources */,
+				87436C7722B8C9AC00DB1FC9 /* Assets.xcassets in Resources */,
+				87436C7522B8C9AB00DB1FC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C7E22B8C9AC00DB1FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C8922B8C9AC00DB1FC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE309027E5AD27D49C0A7C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908F35502DD14C213C566592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoQuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3440D7FFFA1BBA9192C7EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2C72ADCBB7128FC37CCF65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoQuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87436C6822B8C9AB00DB1FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8715B03122B9D6EB00A27BF6 /* CheatViewController.swift in Sources */,
+				87436C9E22B8E90200DB1FC9 /* Question.swift in Sources */,
+				87436C7222B8C9AB00DB1FC9 /* QuizViewController.swift in Sources */,
+				87436C7022B8C9AB00DB1FC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C7C22B8C9AC00DB1FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87436C8522B8C9AC00DB1FC9 /* GeoQuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87436C8722B8C9AC00DB1FC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87436C9022B8C9AC00DB1FC9 /* GeoQuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87436C8222B8C9AC00DB1FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87436C6B22B8C9AB00DB1FC9 /* GeoQuiz */;
+			targetProxy = 87436C8122B8C9AC00DB1FC9 /* PBXContainerItemProxy */;
+		};
+		87436C8D22B8C9AC00DB1FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87436C6B22B8C9AB00DB1FC9 /* GeoQuiz */;
+			targetProxy = 87436C8C22B8C9AC00DB1FC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87436C7322B8C9AB00DB1FC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87436C7422B8C9AB00DB1FC9 /* Base */,
+				87436CA022B8E9CA00DB1FC9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87436C7822B8C9AC00DB1FC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87436C7922B8C9AC00DB1FC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87436C9222B8C9AC00DB1FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87436C9322B8C9AC00DB1FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87436C9522B8C9AC00DB1FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B4D7CA9EDFBB2B08F45E62 /* Pods-GeoQuiz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87436C9622B8C9AC00DB1FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2993FB8C2F5F7E24071D02A5 /* Pods-GeoQuiz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87436C9822B8C9AC00DB1FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6A27F039C678840BD9676E /* Pods-GeoQuizTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuiz.app/GeoQuiz";
+			};
+			name = Debug;
+		};
+		87436C9922B8C9AC00DB1FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683B9D56520D7338E52228C6 /* Pods-GeoQuizTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuiz.app/GeoQuiz";
+			};
+			name = Release;
+		};
+		87436C9B22B8C9AC00DB1FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5BEC9CDD25C301DB2A743D /* Pods-GeoQuizUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoQuiz;
+			};
+			name = Debug;
+		};
+		87436C9C22B8C9AC00DB1FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA6345A7DC9A2540F1CA327 /* Pods-GeoQuizUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5L5PDU89L;
+				INFOPLIST_FILE = GeoQuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Touch-Capture.GeoQuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoQuiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87436C6722B8C9AB00DB1FC9 /* Build configuration list for PBXProject "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87436C9222B8C9AC00DB1FC9 /* Debug */,
+				87436C9322B8C9AC00DB1FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87436C9422B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87436C9522B8C9AC00DB1FC9 /* Debug */,
+				87436C9622B8C9AC00DB1FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87436C9722B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87436C9822B8C9AC00DB1FC9 /* Debug */,
+				87436C9922B8C9AC00DB1FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87436C9A22B8C9AC00DB1FC9 /* Build configuration list for PBXNativeTarget "GeoQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87436C9B22B8C9AC00DB1FC9 /* Debug */,
+				87436C9C22B8C9AC00DB1FC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87436C6422B8C9AB00DB1FC9 /* Project object */;
+}

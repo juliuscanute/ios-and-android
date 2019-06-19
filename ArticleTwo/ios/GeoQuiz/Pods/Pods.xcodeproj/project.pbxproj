@@ -1,0 +1,950 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178792A620305D397DB7801C9CDD1242 /* Pods-GeoQuiz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723DC10B7FE7D7867357571EFA3A6264 /* Pods-GeoQuiz-dummy.m */; };
+		2641BBA3553D08D6291FDC576BF7FEE9 /* Pods-GeoQuizUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A4B15EC224329C63E96ED070D619C2 /* Pods-GeoQuizUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9F44521EA17F5D27761887B80AC110 /* Pods-GeoQuizTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5907FA6AA7EC041EED2007DF08278EB /* Pods-GeoQuizTests-dummy.m */; };
+		2E42BCE5915C62CCE4D3451E45E22C27 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671249A38CB198C4F79D35F62529E459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+		70E238789D875E0E64C13F282025B725 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */; };
+		762EAE39F1A8F6390B5B64CBDB87F977 /* Pods-GeoQuizTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1CDAFCA202B381D35960A6FF16FFEB4 /* Pods-GeoQuizTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E852D62FC29D35627CD2E8D930A8B7 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */; };
+		872F2197BAABD0E25EC7A6BA78057211 /* Pods-GeoQuiz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 538AA4777FBD2E377FAF7C6BC5C6E6E5 /* Pods-GeoQuiz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87CEDC84E930DEBC39D73AEAD80EBD0D /* Pods-GeoQuizUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A59E521D4EFB494B33C989FD509409 /* Pods-GeoQuizUITests-dummy.m */; };
+		AF6A0FAC095083B412CF42BD9EA4A7FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+		F475630E578DFB02ACA40F8CB1E8A3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+		F749C3A348901DA2B7783A51355B0B45 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */; };
+		FDB06C9B0A2528328A90E9807B16F033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A9C6C0464E5866A1529C541F2CFA118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49646562A0A9D52F0B98F5C60948D50;
+			remoteInfo = "Pods-GeoQuiz";
+		};
+		8B20E6F54ABF0E100F0F0D08374E68F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C15DB2C4EFD2CA68A1F0A4FEFCA300;
+			remoteInfo = "Toast-Swift";
+		};
+		CBAAE3D472BEA09DD031CE70D1AFAE4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F49646562A0A9D52F0B98F5C60948D50;
+			remoteInfo = "Pods-GeoQuiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F2393EB4ABAC160C70D824057160BA /* Pods-GeoQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		24A59E521D4EFB494B33C989FD509409 /* Pods-GeoQuizUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuizUITests-dummy.m"; sourceTree = "<group>"; };
+		32FD32DF286B9E2A30489B2A710659E6 /* Pods-GeoQuizTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuizTests-resources.sh"; sourceTree = "<group>"; };
+		35A4B15EC224329C63E96ED070D619C2 /* Pods-GeoQuizUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoQuizUITests-umbrella.h"; sourceTree = "<group>"; };
+		41D2B6C23268753EF913008F81CDF5D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		423FD77F41DB17EF3D27E55EB24248C6 /* Pods-GeoQuizTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuizTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E59F4C173E5C41B03DA351C763C43E7 /* Pods-GeoQuiz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoQuiz.modulemap"; sourceTree = "<group>"; };
+		50337AEC920EC3A5E43C9F6A91678FBA /* Pods-GeoQuizUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuizUITests-frameworks.sh"; sourceTree = "<group>"; };
+		538AA4777FBD2E377FAF7C6BC5C6E6E5 /* Pods-GeoQuiz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoQuiz-umbrella.h"; sourceTree = "<group>"; };
+		5C21B5793EAB157BF81C8A57B136E028 /* Pods-GeoQuizUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuizUITests-resources.sh"; sourceTree = "<group>"; };
+		60BF787268542529EF5C163D7E838484 /* Pods-GeoQuiz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuiz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		680AE845789700A1E4491B99E06051D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3981B27D232AAC0CAB4721B4885ABE /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		723DC10B7FE7D7867357571EFA3A6264 /* Pods-GeoQuiz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuiz-dummy.m"; sourceTree = "<group>"; };
+		72C6CB660D9FD50BA79D3BAFA4D5F9EF /* Pods-GeoQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E4FB47AE8DCDE4A37B93621DD73337C /* Pods-GeoQuizUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoQuizUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E796CF9E6DDFD745DD4C672DF0CADBB /* Pods-GeoQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F48CEBCA35C9B6F199D0828E3A69DAD /* Pods-GeoQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuiz.debug.xcconfig"; sourceTree = "<group>"; };
+		830CCFFAD1833211BD21369A8687570C /* Pods-GeoQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F79BA3D5172D649DD86813D9F6C9763 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		A1DF8C4B9EB913EB3D74AFCEF7E94BF2 /* Pods_GeoQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F6614FD3E54DF5B69C1FDE6612FF7 /* Pods_GeoQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D25FC7C636CB1A74CDBB7E33CE61C5 /* Pods-GeoQuiz-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuiz-resources.sh"; sourceTree = "<group>"; };
+		B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		B2A23530D519D80FEA56B3795336214E /* Pods-GeoQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		B5907FA6AA7EC041EED2007DF08278EB /* Pods-GeoQuizTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoQuizTests-dummy.m"; sourceTree = "<group>"; };
+		B96E811B17C1F9C8A72A48C6AD2752C0 /* Pods-GeoQuiz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuiz-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBD12B3918C2ED1E7B425753262398B5 /* Pods-GeoQuizTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuizTests-frameworks.sh"; sourceTree = "<group>"; };
+		C0ECF8521FD0EF494EF116302A0CE185 /* Pods-GeoQuizTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoQuizTests.modulemap"; sourceTree = "<group>"; };
+		C7433DB6C40B04F780437925E27CBE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E1EBEBB257D4AF3A1F522351DBC4AE /* Pods-GeoQuizUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoQuizUITests.modulemap"; sourceTree = "<group>"; };
+		CF338213DFAFA3B3486272B497580705 /* Pods_GeoQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CDAFCA202B381D35960A6FF16FFEB4 /* Pods-GeoQuizTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoQuizTests-umbrella.h"; sourceTree = "<group>"; };
+		D21BB24AB87D60A4B304F6644C87045A /* Pods-GeoQuizUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuizUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E424C3C446DAB5B4CD5FB67F51C8DB21 /* Pods-GeoQuizTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoQuizTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		F9933183E8E1EBE0FEF00009FB1BF4FB /* Pods-GeoQuiz-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoQuiz-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14785FA1A4E9C601580E09A07682BB41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB06C9B0A2528328A90E9807B16F033 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D8E63D89C03B17111A62945CC5D799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6A0FAC095083B412CF42BD9EA4A7FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536643792866B6F55B2A319C99268A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F475630E578DFB02ACA40F8CB1E8A3FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF29D47AEA98DE61B85D7C14C4D0A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671249A38CB198C4F79D35F62529E459 /* Foundation.framework in Frameworks */,
+				F749C3A348901DA2B7783A51355B0B45 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				680AE845789700A1E4491B99E06051D7 /* Info.plist */,
+				B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */,
+				B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */,
+				ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */,
+				1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */,
+				F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */,
+				06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */,
+			);
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		2EB381509EABFD7C8909724F32F5C95C /* Pods-GeoQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				41D2B6C23268753EF913008F81CDF5D2 /* Info.plist */,
+				C0ECF8521FD0EF494EF116302A0CE185 /* Pods-GeoQuizTests.modulemap */,
+				423FD77F41DB17EF3D27E55EB24248C6 /* Pods-GeoQuizTests-acknowledgements.markdown */,
+				E424C3C446DAB5B4CD5FB67F51C8DB21 /* Pods-GeoQuizTests-acknowledgements.plist */,
+				B5907FA6AA7EC041EED2007DF08278EB /* Pods-GeoQuizTests-dummy.m */,
+				BBD12B3918C2ED1E7B425753262398B5 /* Pods-GeoQuizTests-frameworks.sh */,
+				32FD32DF286B9E2A30489B2A710659E6 /* Pods-GeoQuizTests-resources.sh */,
+				D1CDAFCA202B381D35960A6FF16FFEB4 /* Pods-GeoQuizTests-umbrella.h */,
+				830CCFFAD1833211BD21369A8687570C /* Pods-GeoQuizTests.debug.xcconfig */,
+				7E796CF9E6DDFD745DD4C672DF0CADBB /* Pods-GeoQuizTests.release.xcconfig */,
+			);
+			name = "Pods-GeoQuizTests";
+			path = "Target Support Files/Pods-GeoQuizTests";
+			sourceTree = "<group>";
+		};
+		39A7662DA19699DFD415246A87122D2F /* Pods-GeoQuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7433DB6C40B04F780437925E27CBE71 /* Info.plist */,
+				C9E1EBEBB257D4AF3A1F522351DBC4AE /* Pods-GeoQuizUITests.modulemap */,
+				7E4FB47AE8DCDE4A37B93621DD73337C /* Pods-GeoQuizUITests-acknowledgements.markdown */,
+				D21BB24AB87D60A4B304F6644C87045A /* Pods-GeoQuizUITests-acknowledgements.plist */,
+				24A59E521D4EFB494B33C989FD509409 /* Pods-GeoQuizUITests-dummy.m */,
+				50337AEC920EC3A5E43C9F6A91678FBA /* Pods-GeoQuizUITests-frameworks.sh */,
+				5C21B5793EAB157BF81C8A57B136E028 /* Pods-GeoQuizUITests-resources.sh */,
+				35A4B15EC224329C63E96ED070D619C2 /* Pods-GeoQuizUITests-umbrella.h */,
+				02F2393EB4ABAC160C70D824057160BA /* Pods-GeoQuizUITests.debug.xcconfig */,
+				72C6CB660D9FD50BA79D3BAFA4D5F9EF /* Pods-GeoQuizUITests.release.xcconfig */,
+			);
+			name = "Pods-GeoQuizUITests";
+			path = "Target Support Files/Pods-GeoQuizUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B77A7A05442780EC92DC1750CA2454E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B77A7A05442780EC92DC1750CA2454E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD7D1104982DA0F022B5757FB41D3E /* Foundation.framework */,
+				F03D525EBD2B1B2D3C9A3A61589ABA5A /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */,
+				A2EC73990F9B4B20F3467D47829DBF67 /* Products */,
+				BBE4E30D5552A2D2FC3D076F8623867B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		860BDA2C28C1D92356C76822EC4C67E4 /* Pods-GeoQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				8F79BA3D5172D649DD86813D9F6C9763 /* Info.plist */,
+				4E59F4C173E5C41B03DA351C763C43E7 /* Pods-GeoQuiz.modulemap */,
+				60BF787268542529EF5C163D7E838484 /* Pods-GeoQuiz-acknowledgements.markdown */,
+				B96E811B17C1F9C8A72A48C6AD2752C0 /* Pods-GeoQuiz-acknowledgements.plist */,
+				723DC10B7FE7D7867357571EFA3A6264 /* Pods-GeoQuiz-dummy.m */,
+				F9933183E8E1EBE0FEF00009FB1BF4FB /* Pods-GeoQuiz-frameworks.sh */,
+				A9D25FC7C636CB1A74CDBB7E33CE61C5 /* Pods-GeoQuiz-resources.sh */,
+				538AA4777FBD2E377FAF7C6BC5C6E6E5 /* Pods-GeoQuiz-umbrella.h */,
+				7F48CEBCA35C9B6F199D0828E3A69DAD /* Pods-GeoQuiz.debug.xcconfig */,
+				B2A23530D519D80FEA56B3795336214E /* Pods-GeoQuiz.release.xcconfig */,
+			);
+			name = "Pods-GeoQuiz";
+			path = "Target Support Files/Pods-GeoQuiz";
+			sourceTree = "<group>";
+		};
+		A2EC73990F9B4B20F3467D47829DBF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79F6614FD3E54DF5B69C1FDE6612FF7 /* Pods_GeoQuiz.framework */,
+				CF338213DFAFA3B3486272B497580705 /* Pods_GeoQuizTests.framework */,
+				A1DF8C4B9EB913EB3D74AFCEF7E94BF2 /* Pods_GeoQuizUITests.framework */,
+				6D3981B27D232AAC0CAB4721B4885ABE /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBE4E30D5552A2D2FC3D076F8623867B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				860BDA2C28C1D92356C76822EC4C67E4 /* Pods-GeoQuiz */,
+				2EB381509EABFD7C8909724F32F5C95C /* Pods-GeoQuizTests */,
+				39A7662DA19699DFD415246A87122D2F /* Pods-GeoQuizUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AA2E51EC44451402768AD0B0E44FE8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872F2197BAABD0E25EC7A6BA78057211 /* Pods-GeoQuiz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70E5746760B1639BEBA5A5A2F4E18D9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E42BCE5915C62CCE4D3451E45E22C27 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C2BA4A95B5E8C4252A02E411418ADB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762EAE39F1A8F6390B5B64CBDB87F977 /* Pods-GeoQuizTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB922413C48EEB60D28A7C6461EA255F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2641BBA3553D08D6291FDC576BF7FEE9 /* Pods-GeoQuizUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43C15DB2C4EFD2CA68A1F0A4FEFCA300 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57F23B978CAF403DE6C21474F0CA211 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				70E5746760B1639BEBA5A5A2F4E18D9D /* Headers */,
+				4C7C221DA410C7014726DD91142C9E70 /* Sources */,
+				FFF29D47AEA98DE61B85D7C14C4D0A5D /* Frameworks */,
+				5A9A323D7987618B5938F816C9CF2CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 6D3981B27D232AAC0CAB4721B4885ABE /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8660CBE07F35342C32D3C6B05175C66A /* Pods-GeoQuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA6FBF73BB8903C6051BD00DC2BC93B /* Build configuration list for PBXNativeTarget "Pods-GeoQuizUITests" */;
+			buildPhases = (
+				BB922413C48EEB60D28A7C6461EA255F /* Headers */,
+				8828AB305B549458931A2C8F1C3004F9 /* Sources */,
+				14785FA1A4E9C601580E09A07682BB41 /* Frameworks */,
+				E9416481CB78CA66B1F40AA121DB1B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA9C3EACC966D6D683AA867D1BC2EE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoQuizUITests";
+			productName = "Pods-GeoQuizUITests";
+			productReference = A1DF8C4B9EB913EB3D74AFCEF7E94BF2 /* Pods_GeoQuizUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE0AA67A2441BF437E5FF1A776E93241 /* Pods-GeoQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3619B1337E9A4C94CD360DDAB4F69D69 /* Build configuration list for PBXNativeTarget "Pods-GeoQuizTests" */;
+			buildPhases = (
+				89C2BA4A95B5E8C4252A02E411418ADB /* Headers */,
+				F4CEC7CE9A2A2FE2BDE3F124F9A0E77D /* Sources */,
+				9536643792866B6F55B2A319C99268A5 /* Frameworks */,
+				1E9A663EE57C82F3BF60F4A70E587F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA80195B7991DD3F0958376860118D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoQuizTests";
+			productName = "Pods-GeoQuizTests";
+			productReference = CF338213DFAFA3B3486272B497580705 /* Pods_GeoQuizTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F49646562A0A9D52F0B98F5C60948D50 /* Pods-GeoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01965F4482F6B4E5E623CCB39708B080 /* Build configuration list for PBXNativeTarget "Pods-GeoQuiz" */;
+			buildPhases = (
+				1AA2E51EC44451402768AD0B0E44FE8F /* Headers */,
+				3F9681F43E24832131E0B8C077E29BBC /* Sources */,
+				56D8E63D89C03B17111A62945CC5D799 /* Frameworks */,
+				996D6DA254CB411616CC840F55F7FAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10FC0903D996BD7D3F3FD1B04E45E970 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoQuiz";
+			productName = "Pods-GeoQuiz";
+			productReference = A79F6614FD3E54DF5B69C1FDE6612FF7 /* Pods_GeoQuiz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A2EC73990F9B4B20F3467D47829DBF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F49646562A0A9D52F0B98F5C60948D50 /* Pods-GeoQuiz */,
+				AE0AA67A2441BF437E5FF1A776E93241 /* Pods-GeoQuizTests */,
+				8660CBE07F35342C32D3C6B05175C66A /* Pods-GeoQuizUITests */,
+				43C15DB2C4EFD2CA68A1F0A4FEFCA300 /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E9A663EE57C82F3BF60F4A70E587F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9A323D7987618B5938F816C9CF2CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		996D6DA254CB411616CC840F55F7FAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9416481CB78CA66B1F40AA121DB1B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9681F43E24832131E0B8C077E29BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178792A620305D397DB7801C9CDD1242 /* Pods-GeoQuiz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7C221DA410C7014726DD91142C9E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E852D62FC29D35627CD2E8D930A8B7 /* Toast-Swift-dummy.m in Sources */,
+				70E238789D875E0E64C13F282025B725 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8828AB305B549458931A2C8F1C3004F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87CEDC84E930DEBC39D73AEAD80EBD0D /* Pods-GeoQuizUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CEC7CE9A2A2FE2BDE3F124F9A0E77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9F44521EA17F5D27761887B80AC110 /* Pods-GeoQuizTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10FC0903D996BD7D3F3FD1B04E45E970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 43C15DB2C4EFD2CA68A1F0A4FEFCA300 /* Toast-Swift */;
+			targetProxy = 8B20E6F54ABF0E100F0F0D08374E68F4 /* PBXContainerItemProxy */;
+		};
+		BEA9C3EACC966D6D683AA867D1BC2EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GeoQuiz";
+			target = F49646562A0A9D52F0B98F5C60948D50 /* Pods-GeoQuiz */;
+			targetProxy = CBAAE3D472BEA09DD031CE70D1AFAE4A /* PBXContainerItemProxy */;
+		};
+		DFA80195B7991DD3F0958376860118D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GeoQuiz";
+			target = F49646562A0A9D52F0B98F5C60948D50 /* Pods-GeoQuiz */;
+			targetProxy = 7A9C6C0464E5866A1529C541F2CFA118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AF9A9EFBBD328C7785632C7A3E2C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F2393EB4ABAC160C70D824057160BA /* Pods-GeoQuizUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuizUITests/Pods-GeoQuizUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		349B260FC53026036E75F36511D981C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45C2D877B03E3C69F8DF6BFDE2B892E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C6CB660D9FD50BA79D3BAFA4D5F9EF /* Pods-GeoQuizUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuizUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuizUITests/Pods-GeoQuizUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9394D260877B43A09C9798F315A792D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1C74A8F1C07FEB0A10260E081AEC407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E796CF9E6DDFD745DD4C672DF0CADBB /* Pods-GeoQuizTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuizTests/Pods-GeoQuizTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD93CAF08CC81D3ECF91E990AF2A5918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E13CC8D75C8EDF175A3D7F9D383F00D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E152EC888D6D75916F8F921A04D6E403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A23530D519D80FEA56B3795336214E /* Pods-GeoQuiz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E514E180CBC54C9F012BF2A2B5473ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F48CEBCA35C9B6F199D0828E3A69DAD /* Pods-GeoQuiz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuiz/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuiz/Pods-GeoQuiz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F634FBD02B8013B84B2FBEF827528A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830CCFFAD1833211BD21369A8687570C /* Pods-GeoQuizTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoQuizTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoQuizTests/Pods-GeoQuizTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01965F4482F6B4E5E623CCB39708B080 /* Build configuration list for PBXNativeTarget "Pods-GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E514E180CBC54C9F012BF2A2B5473ABF /* Debug */,
+				E152EC888D6D75916F8F921A04D6E403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA6FBF73BB8903C6051BD00DC2BC93B /* Build configuration list for PBXNativeTarget "Pods-GeoQuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF9A9EFBBD328C7785632C7A3E2C1D4 /* Debug */,
+				45C2D877B03E3C69F8DF6BFDE2B892E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				349B260FC53026036E75F36511D981C4 /* Debug */,
+				9394D260877B43A09C9798F315A792D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3619B1337E9A4C94CD360DDAB4F69D69 /* Build configuration list for PBXNativeTarget "Pods-GeoQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634FBD02B8013B84B2FBEF827528A35 /* Debug */,
+				D1C74A8F1C07FEB0A10260E081AEC407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57F23B978CAF403DE6C21474F0CA211 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13CC8D75C8EDF175A3D7F9D383F00D0 /* Debug */,
+				DD93CAF08CC81D3ECF91E990AF2A5918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
